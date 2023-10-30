@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="todo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet"> 
+    <script src="todo.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>To-do list</h1>
+      <p class="date">Date: <span id="todaysDate"></span></p>
+      <p>Main goal for the day: <span id="goal"></span><button id="changeGoal">Change goal</button>
+      <input type="text" id="goalMessage" placeholder="Ex.: pay bills, buy groceries,..." maxlength="100"><button id="setGoal">Set goal</button></p>
+      <button id="clear">Start over</button>
+    </header>
+    <main>
+      <div class="collection">
+        <div class="card work">
+          <h2 class="workheader">Work</h2>
+          <input type="checkbox" id="task0" class="checkboxes"><label for="task0" class="tasks">a task</label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task1" class="checkboxes"><label for="task1" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task2" class="checkboxes"><label for="task2" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task3" class="checkboxes"><label for="task3" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task4" class="checkboxes"><label for="task4" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+<input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+<input type="checkbox" id="task5" class="checkboxes"><label for="task5" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+<input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+<input type="checkbox" id="task6" class="checkboxes"><label for="task6" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task7" class="checkboxes"><label for="task7" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task8" class="checkboxes"><label for="task8" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task9" class="checkboxes"><label for="task9" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+<input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+        </div>
+        <div class="card personal">
+        <h2 class="personalheader">Personal</h2>
+          <input type="checkbox" id="task10" class="checkboxes"><label for="task10" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task11" class="checkboxes"><label for="task11" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task12" class="checkboxes"><label for="task12" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task13" class="checkboxes"><label for="task13" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task14" class="checkboxes"><label for="task14" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+<input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+<input type="checkbox" id="task15" class="checkboxes"><label for="task15" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+<input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+<input type="checkbox" id="task16" class="checkboxes"><label for="task16" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task17" class="checkboxes"><label for="task17" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task18" class="checkboxes"><label for="task18" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task19" class="checkboxes"><label for="task19" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+<input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+        </div>
+        <div class="card home">
+        <h2 class="homeheader">Home</h2>
+          <input type="checkbox" id="task20" class="checkboxes"><label for="task20" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task21" class="checkboxes"><label for="task21" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task22" class="checkboxes"><label for="task22" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task23" class="checkboxes"><label for="task23" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task24" class="checkboxes"><label for="task24" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+<input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+<input type="checkbox" id="task25" class="checkboxes"><label for="task25" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+<input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+<input type="checkbox" id="task26" class="checkboxes"><label for="task26" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task27" class="checkboxes"><label for="task27" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task28" class="checkboxes"><label for="task28" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+          <input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+          <input type="checkbox" id="task29" class="checkboxes"><label for="task29" class="tasks">a task<br></label><button class="deleteButtons">Delete</button>
+<input type="text" class="inputTasks" placeholder="Write down a task..." maxlength="50"><button class="buttonTasks">Add task</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p><a href="https://github.com/amadejaop"><img src="images/github.png"></a><a href="https://www.linkedin.com/in/amadejaop/"><img src="images/linkedin.png"></a></p>
+      <p>Copyright © 2023 <a href="https://amadejaop.github.io/">Amadeja Obšteter Privošnik</a></p>
+      <p class="rights">All Rights Reserved.</p>
+      <p><a href="https://github.com/amadejaop/todo-list">Code on gitHub.</a></p>
+    </footer>
+  </body>
+</html>

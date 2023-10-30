@@ -1,0 +1,199 @@
+a {
+  color: #6b6b6b;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+a:hover {
+  color: black;
+}
+
+button {
+  background-color: #6b6b6b;
+  border: none;
+  border-radius: 10px;
+  color: #eaeaea;
+  cursor: pointer;
+  font-size: 9px;
+  font-weight: 600;
+  padding: 4px 10px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+button:hover {
+  background-color: #2f2f2f;
+  position: relative;
+  top: 1px;
+}
+
+footer {
+  background-color: #cfd0d2;
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  padding: 2vh;
+  text-align: center;
+}
+
+h1, .date {
+  text-align: center;
+}
+
+h2 {
+  border-radius: 10px 10px 0 0;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+header {
+  background-image: url("images/concrete.avif");
+  margin: -21px 0 20px 0;
+  padding: 1% 10%;
+}
+
+html, body {
+  background: #f5f7f9;
+  color: #0f0f0f;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 30px;
+  margin: 3px 7px;
+  width: 30px;
+}
+
+img:hover {
+  position: relative;
+  top: 1px;
+}
+
+input {
+  background-color: rgba(200, 200, 200, 0.3);
+  border: 2px ridge rgba(200, 200, 200, 0.4);
+  border-radius: 20px;
+}
+
+input[type=checkbox]:checked + label {
+  color: gray;
+  text-decoration: line-through;
+}
+
+input:focus {
+  box-shadow: 0 0 5px #4B527E;
+  outline: none;
+}
+
+main {
+  padding-bottom: 3vh;
+  padding-top: 5vh;
+}
+
+#changeGoal {
+  display: none;
+  margin-left: 10px;
+}
+
+#clear {
+  border-radius: 30px;
+  display: block;
+  font-size: 11px;
+  margin: 0 auto 10px auto;
+  padding: 7px 15px;
+}
+
+#goal {
+  font-weight: 600;
+}
+
+#setGoal {
+  margin-left: 10px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  height: 300px;
+  width: 250px;
+}
+
+.checkboxes {
+  margin-left: 15px;
+}
+
+.collection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.date {
+  margin-top: -20px;
+}
+
+.deleteButtons {
+  float: right;
+  margin-right: 10px;
+}
+
+.home {
+  background-color: #DDFFBB;
+}
+
+.homeheader {
+  background-color: #C7E9B0;
+}
+
+.inputTasks {
+  width: 150px;
+}
+
+.inputTasks, .buttonTasks {
+  margin-left: 10px;
+}
+
+.personal {
+  background-color: #FFFFC1;
+}
+
+.personalheader {
+  background-color: rgba(255, 210, 165, 0.6);
+}
+
+.rights {
+  margin-top: -10px;
+}
+
+.tasks {
+  margin-left: 5px;
+  width: 100px;
+}
+
+.work {
+  background: #e6dac8;
+}
+
+.workheader {
+  background-color: #D6C7AE;
+}
+
+@media screen and (max-width: 850px) {
+  .collection::after {
+    content: "";
+    width: 250px;
+  }
+  
+  header {
+    padding: 1% 7%;
+  }
+}
