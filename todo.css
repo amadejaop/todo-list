@@ -122,7 +122,8 @@ main {
 .card {
   border: none;
   border-radius: 10px;
-  height: 300px;
+  font-size: 12px;
+  min-height: 300px;
   width: 250px;
 }
 
@@ -176,7 +177,7 @@ main {
 
 .tasks {
   margin-left: 5px;
-  width: 100px;
+  width: 150px;
 }
 
 .work {
