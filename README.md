@@ -1,5 +1,5 @@
 # TO-DO List App
-A to-do list web application created with HTML, CSS and JavaScript.
+A to-do list created with HTML, CSS and JavaScript.
 The project is available on [GitHub pages](https://amadejaop.github.io/todo-list/todo.html).
 
 ## Table of Contents
@@ -17,7 +17,7 @@ The project is available on [GitHub pages](https://amadejaop.github.io/todo-list
 ## Introduction
 Many people use to-do lists to manage their daily tasks. This digital to-do app was created as an alternative to the analog lists. It allows a user to set his/her main goal as well as sort tasks into different groups (work, personal and home).
 
-The purpose of this project was to create a useful dynamic website using nothing but HTML and CSS for designing the page and JavaScript to make it dynamic. My main goal with this project was to learn and practice manipulation of the DOM with plain JavaScript as well as to get more practice with its fundamentals and my secondary goal was to practice designing websites. I have successfully completed both of these goals.
+The purpose of this project was to create a useful website using nothing but HTML, CSS and JavaScript. My main goal with this project was to learn and practice manipulation of the DOM with plain JavaScript as well as to get more practice with its fundamentals and my secondary goal was to practice designing websites. I have successfully completed both of these goals.
 
 Currently there is no way of saving the list so an important feature that should be added in the future is some way of saving the list and making it accessible again when the user reloads the page or reopens the browser.
 
@@ -43,7 +43,7 @@ If you have made a typo or want to change your main goal, you may do so by click
 The start over button allows you to clear the entire page and start over. This is useful in cases when you have completed most/all of the tasks and want to add more, because the amount of tasks you may add is limited. **Any tasks not yet completed will also be deleted, so use this button with caution.**
 
 ### Tasks
-You may sort your tasks into sections called work, personal and home. The amount of tasks in each of these sections is limited to 10. Make sure your tasks are specific and can be completed in a short amount of time. Examples of well-defined tasks are: create a pie chart for project A, call for a dental check-up, pay electricity bill,...
+You may sort your tasks into sections called work, personal and home. The amount of tasks in each of these sections is limited to 10. Make sure your tasks are specific and can be completed in a short period of time. Examples of well-defined tasks are: create a pie chart for project A, call for a dental check-up, pay electricity bill,...
 
 #### Adding tasks
 To add a task, click on the field in the appropriate section (work, personal or home) to write down the task, then click _add task_ or press _enter_.
