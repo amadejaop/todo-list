@@ -1,4 +1,4 @@
-# TO-DO List App
+# TO-DO List
 A to-do list created with HTML, CSS and JavaScript.
 The project is available on [GitHub pages](https://amadejaop.github.io/todo-list/todo.html).
 
